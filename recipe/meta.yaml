@@ -10,7 +10,7 @@ source:
   sha256: 29d07681a78042cdd15b268ae9decffed9ace68a53eebeb61d65ae931d158841
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
 
 
@@ -30,8 +30,7 @@ test:
 
 about:
   home: https://github.com/zopefoundation/zope.hookable
-  license: ZPL 2.1
-  license_family: OTHER
+  license: ZPL-2.1
   license_file: LICENSE.txt
   summary: supports the efficient creation of “hookable” objects, which are callable objects that are meant to be optionally replaced.
   description: |
