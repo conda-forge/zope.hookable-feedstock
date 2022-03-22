@@ -3,7 +3,7 @@ About zope.hookable
 
 Home: https://github.com/zopefoundation/zope.hookable
 
-Package license: ZPL 2.1
+Package license: ZPL-2.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zope.hookable-feedstock/blob/master/LICENSE.txt)
 
