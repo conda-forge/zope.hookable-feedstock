@@ -30,8 +30,7 @@ test:
 
 about:
   home: https://github.com/zopefoundation/zope.hookable
-  license: ZPL 2.1
-  license_family: OTHER
+  license: ZPL-2.1
   license_file: LICENSE.txt
   summary: supports the efficient creation of “hookable” objects, which are callable objects that are meant to be optionally replaced.
   description: |
