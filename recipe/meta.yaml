@@ -1,5 +1,5 @@
 {% set name = "zope.hookable" %}
-{% set version = "5.0.1" %}
+{% set version = "5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 29d07681a78042cdd15b268ae9decffed9ace68a53eebeb61d65ae931d158841
+  sha256: 4c3018bcf2b39cf5cccf40826f799b4b8c140056db780f96cb0ca332a243bd29
 
 build:
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 
